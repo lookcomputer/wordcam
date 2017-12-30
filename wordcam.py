@@ -9,7 +9,7 @@ def exception():
     veya
     python3 -d veriniz-veriniz
     
-    * = boşluktur
+    * = "-"
     -r = kısa indexleme yap
     -d = tüm verinileri kullanarak indexleme yap
     """)
@@ -77,7 +77,7 @@ try:
     verix = []
     for i in veri:
         if i == "*":
-            veri.append(" ")
+            veri.append("-")
         else:
             verix.append(i)
 
